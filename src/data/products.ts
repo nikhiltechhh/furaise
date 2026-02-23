@@ -1,10 +1,15 @@
 import turmericPolished from "@/assets/turmeric-polished.jpg";
 import turmericUnpolished from "@/assets/turmeric-unpolished.jpg";
-import basmatiRice from "@/assets/basmati-rice.jpg";
-import sonaRice from "@/assets/sona-rice.jpg";
-import turmericFarm from "@/assets/turmeric-farm.jpg";
-import riceField from "@/assets/rice-field.jpg";
-import qualityLab from "@/assets/quality-lab.jpg";
+import p1 from "@/assets/p1.jpeg";
+import p2 from "@/assets/p2.jpeg";
+import p3 from "@/assets/p3.jpeg";
+import p4 from "@/assets/p4.jpeg";
+import p5 from "@/assets/p5.jpeg";
+import p6 from "@/assets/p6.jpeg";
+import p7 from "@/assets/p7.jpeg";
+import p8 from "@/assets/p8.jpeg";
+import p9 from "@/assets/p9.jpeg";
+import p10 from "@/assets/p10.jpeg";
 
 export interface Product {
   id: string;
@@ -30,8 +35,8 @@ export const products: Product[] = [
     priceRange: "2300-2800",
     unit: "1 MTN (FOB)",
     minOrder: "10 MTN",
-    image: "https://i.ibb.co/WpNQZ1hv/Whats-App-Image-2026-02-23-at-3-26-11-PM.jpg",
-    gallery: ["https://i.ibb.co/WpNQZ1hv/Whats-App-Image-2026-02-23-at-3-26-11-PM.jpg", "https://i.ibb.co/1t8JDfVX/Whats-App-Image-2026-02-23-at-3-26-48-PM.jpg"],
+    image: p1,
+    gallery: [p1, p2],
     category: "turmeric",
     curcuminContent: "> 3.5%",
     details: [
@@ -50,8 +55,8 @@ export const products: Product[] = [
     price: "$2,150",
     unit: "1 MTN (FOB)",
     minOrder: "10 MTN",
-    image: "https://i.ibb.co/L4qbQJB/Whats-App-Image-2026-02-23-at-3-27-51-PM.jpg",
-    gallery: ["https://i.ibb.co/L4qbQJB/Whats-App-Image-2026-02-23-at-3-27-51-PM.jpg", "https://i.ibb.co/ds3QTBfT/Whats-App-Image-2026-02-23-at-3-27-52-PM.jpg"],
+    image: p3,
+    gallery: [p3, p5],
     category: "turmeric",
     curcuminContent: "> 2.3%",
     details: [
@@ -70,8 +75,8 @@ export const products: Product[] = [
     price: "$1,960",
     unit: "1 MTN (FOB)",
     minOrder: "10 MTN",
-    image: "https://i.ibb.co/5hk7LV0r/Whats-App-Image-2026-02-23-at-3-34-13-PM.jpg",
-    gallery: ["https://i.ibb.co/5hk7LV0r/Whats-App-Image-2026-02-23-at-3-34-13-PM.jpg", "https://i.ibb.co/VYRyZScq/Whats-App-Image-2026-02-23-at-3-33-55-PM.jpg"],
+    image: p6,
+    gallery: [p6, p4],
     category: "turmeric",
     details: [
       "Raw unprocessed turmeric",
@@ -90,8 +95,8 @@ export const products: Product[] = [
     priceRange: "880-1200",
     unit: "1 MTN (FOB)",
     minOrder: "10 MTN",
-    image: "https://i.ibb.co/fzzP5bfp/Whats-App-Image-2026-02-23-at-3-50-05-PM.jpg",
-    gallery: ["https://i.ibb.co/fzzP5bfp/Whats-App-Image-2026-02-23-at-3-50-05-PM.jpg", "https://i.ibb.co/S7ZmgWty/Whats-App-Image-2026-02-23-at-3-50-05-PM-1.jpg"],
+    image: p8,
+    gallery: [p8, p7],
     category: "rice",
     details: [
       "Premium Basmati 1121 variety",
@@ -110,8 +115,8 @@ export const products: Product[] = [
     priceRange: "510-580",
     unit: "1 MTN (FOB)",
     minOrder: "10 MTN",
-    image: "https://i.ibb.co/DgGwLyyx/Whats-App-Image-2026-02-23-at-5-22-51-PM.jpg",
-    gallery: ["https://i.ibb.co/DgGwLyyx/Whats-App-Image-2026-02-23-at-5-22-51-PM.jpg", "https://i.ibb.co/dCrS7cY/Whats-App-Image-2026-02-23-at-4-01-38-PM.jpg"],
+    image: p10,
+    gallery: [p10, p9],
     category: "rice",
     details: [
       "Premium Sona Masuri variety",

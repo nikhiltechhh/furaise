@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { ShoppingCart, Phone, Mail } from "lucide-react";
 import { useNavigate, useLocation } from "react-router-dom";
 import { useCart } from "@/context/CartContext";
+import logo from "@/assets/logofuraise.jpeg";
 
 const navLinks = [
   { label: "Home", href: "#home" },
@@ -99,7 +100,7 @@ const Header = () => {
   className="flex items-center cursor-pointer flex-shrink-0"
 >
   <img
-    src="https://i.ibb.co/cKtx9PTC/logofuraise.jpg"
+    src={logo}
     alt="Furaise Logo"
     className={`
       w-auto object-contain transition-all duration-300
